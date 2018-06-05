@@ -1,6 +1,4 @@
-FROM node:9.8-stretch
-
-MAINTAINER Marco Raddatz
+FROM arm32v7/node:carbon
 
 # Set environment variables
 ENV DEBIAN_FRONTEND noninteractive
